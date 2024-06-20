@@ -1,0 +1,7 @@
+telebot
+pyautogui
+opencv-python
+torch
+sounddevice
+numpy
+pillow
