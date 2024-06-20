@@ -1,4 +1,4 @@
-# TeleBot Assistant
+# PC-Control
 
 Этот проект представляет собой телеграм-бота, который может выполнять различные команды для управления вашим компьютером. Бот использует несколько библиотек, включая `telebot`, `pyautogui`, `cv2` и `torch`, для выполнения своих функций.
 
@@ -21,8 +21,8 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone https://github.com/yourusername/telebot-assistant.git
-    cd telebot-assistant
+    git clone https://github.com/qwertyuiop-danil/PC-control
+    cd PC-control
     ```
 
 2. Установите необходимые библиотеки:
@@ -30,9 +30,9 @@
     pip install -r requirements.txt
     ```
 
-3. Создайте файл `.env` и добавьте ваш Telegram токен:
+3. Замените TOKEN ваш Telegram токен в строчке:
     ```env
-    TELEGRAM_TOKEN=your_telegram_token
+    bot = telebot.TeleBot('TOKEN')
     ```
 
 ## Использование
