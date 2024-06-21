@@ -7,7 +7,7 @@ import torch
 import sounddevice as sd
 from time import sleep
 
-device = torch.device('cpu')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 def load_model():
     global model
     model, _ = torch.hub.load(
