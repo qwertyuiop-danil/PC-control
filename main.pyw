@@ -62,7 +62,7 @@ def func(message):
                      '/stream\n'
                      '/stop\n'
                      '/speak\n'
-#                     '/set_speaker'
+                     '/set_speaker'
                      )
 
 @bot.message_handler(commands=['move'])
